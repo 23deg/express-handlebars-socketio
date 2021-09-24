@@ -1,0 +1,15 @@
+{
+  "name": "express-handlebars-socketio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Juan Diaz @ 23degree.io",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "socket.io": "^4.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  } 
+}

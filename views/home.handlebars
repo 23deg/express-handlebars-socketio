@@ -1,0 +1,7 @@
+<script>
+    function emit() {
+        socket.emit('call', {"foo": "bar"})
+    }
+</script>
+<h1>Exmaple</h1>
+<button onclick="emit()">Call Socket.io</button>
